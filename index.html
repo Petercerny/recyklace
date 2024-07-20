@@ -10,18 +10,14 @@
             padding: 0;
             width: 100%;
             height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #f0f0f0;
         }
         flowise-fullchatbot {
             width: 100%;
-            height: 100vh; /* Ensure it takes the full viewport height */
+            height: 100%;
         }
     </style>
 </head>
-<body>
+<body style="margin: 0">
   <flowise-fullchatbot></flowise-fullchatbot>
 <script type="module">
     import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
@@ -37,8 +33,6 @@
                 welcomeMessage: 'Hello! This is custom welcome message',
                 errorMessage: 'This is a custom error message',
                 backgroundColor: "#ffffff",
-                height: '100%',
-                width: '100%',
                 fontSize: 16,
                 poweredByTextColor: "#303235",
                 botMessage: {
@@ -70,8 +64,8 @@
                 footer: {
                     textColor: '#303235',
                     text: 'Powered by',
-                    company: 'Flowise',
-                    companyLink: 'https://flowiseai.com',
+                    company: 'Peter Cerny',
+                    companyLink: 'https://www.linkedin.com/in/petr-%C4%8Dern%C3%BD-31692920a/',
                 }
             }
         }
